@@ -11,3 +11,6 @@ debug.media.transcoding.codec_max_operating_rate_1080P=120
 # Dexopt
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
+
+# Incremental FS
+ro.incremental.enable=1
