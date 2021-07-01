@@ -176,6 +176,7 @@ VENDOR_SECURITY_PATCH := 2022-04-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Shims
