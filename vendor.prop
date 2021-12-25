@@ -210,6 +210,7 @@ ro.telephony.iwlan_operation_mode=legacy
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.allow_non_default_discovery=true
+debug.sensors.diag_buffer_log=false
 
 # Shutdown
 sys.vendor.shutdown.waittime=500
