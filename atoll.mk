@@ -344,11 +344,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.sh \
+    init.qcom.usb.sh \
     init.qti.chg_policy.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
+    init.qcom.usb.rc \
     init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc
@@ -397,13 +399,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
-
-PRODUCT_PACKAGES += \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh
-
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/qcom/opensource/usb/etc
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
